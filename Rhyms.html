@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid Rhymes</title>
+    <link rel="stylesheet" href="../css/style.css">
+     <!-- bootstrap links -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- bootstrap links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        .header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+.logo{
+
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+.menu{
+    width: 75%;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu-list{
+  
+    display: flex;
+    font-style: italic;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    line-height: 100%;
+    justify-content: space-evenly;
+    font-size: 10px;
+    list-style: none;
+}
+
+.menu-list li a{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-list li a:hover{
+    color:  rgb(219, 58, 58);
+    transition: 0.5s all ease-in-out;
+}
+
+
+.toggle{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.humberger-btn{
+    font-size: 30px;
+    cursor: pointer;
+
+}
+           main {
+            background-image: linear-gradient(to right, rgb(216, 58, 219), rgb(226, 254, 44) 50% 50%);
+            padding: 40px;
+            text-align: center;
+        }
+        .rhyme1 {
+            margin-bottom: 20px;
+            background-image: url(picture/star.jpg);
+            
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .rhyme2 {
+            margin-bottom: 20px;
+            background-image: url(picture/boat.jpg);
+            
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .rhyme3 {
+            margin-bottom: 20px;
+            background-image: url(picture/humpty\ dumty.avif);
+            
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .rhyme4 {
+            margin-bottom: 20px;
+            background-image: url(picture/12345.jpg);
+            
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .rhyme5 {
+            margin-bottom: 20px;
+            background-image: url(picture/A\ sailor.jpg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(252, 251, 251, 0.1);
+        }
+        .rhyme6 {
+            margin-bottom: 20px;
+            background-image: url(picture/sheep.jpg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="Rhymes" class="Rhyms">
+
+        <div class="header">
+
+            <div class="logo">
+                <img src="Kids_Zone_Logo-removebg-preview.png" alt="logo">
+
+            </div>
+
+            <div class="menu">
+
+                <ul class="menu-list">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#A-to-Z">A-Z</a></li>
+                    <li><a href="Animal name.html">Animal name</a></li>
+                    <li><a href="Rhyms.html">Rhymes</a></li>
+                    <li><a href="#counting">Counting</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+
+            </div>
+
+            <div class="toggle toggle-active">
+               <button onclick="show()"> <i class="fa-solid fa-bars humberger-btn"></i> </button>
+            </div>
+
+        </div>
+    <main>
+        <div class="rhyme1">
+            <h2>Twinkle, Twinkle, Little Star</h2>
+            <p>Twinkle, twinkle, little star,<br>
+            How I wonder what you are!<br>
+            Up above the world so high,<br>
+            Like a diamond in the sky.<br>
+            Twinkle, twinkle, little star,<br>
+            How I wonder what you are!</p>
+        </div>
+        <div class="rhyme2">
+            <h2>Row, Row, Row Your Boat</h2>
+            <p>Row, row, row your boat,<br>
+            Gently down the stream.<br>
+            Merrily, merrily, merrily, merrily,<br>
+            Life is but a dream.</p>
+        </div>
+        <div class="rhyme3">
+            <h2>Humpty Dumpty</h2>
+            <p>Humpty Dumpty sat on a wall,<br>
+            Humpty Dumpty had a great fall.<br>
+            All the king's horses and all the king's men,<br>
+            Couldn't put Humpty together again.</p>
+        </div>
+        <div class="rhyme4">
+            <h2>12345 Once I caught A fish Alive</h2>
+            <p>One, two, three, four, five,<br>
+                Once I caught a fish alive,<br>
+                Six, seven, eight, nine, ten,<br>
+                Then I let go again.</p>
+        </div>
+        <div class="rhyme5">
+            <h2>A Sailor Went To Sea Lyrics</h2>
+            <p>A sailor went to sea, sea, sea<br>
+                To see what he could see, see, see<br>
+                But all that he could see, see, see,<br>
+                Was the bottom of the deep blue sea, sea, sea!</p>
+        </div>
+        <div class="rhyme6">
+            <h2>Baa Baa Black Sheep</h2>
+            <p>Have you any wool<br>
+                Yes sir, yes sir<br>
+                Three bags full,<br>
+                Who lives down the lane.</p>
+        </div>
+         <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+  
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h3>KIDZone</h3>
+                <p>
+                  Karachi <br>
+                  Sindh <br>
+                  Pakistan <br>
+                </p>
+                <strong>Phone:</strong> +000000000000000 <br>
+                <strong>Email:</strong>  KIDZone@.com <br>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Usefull Links</h4>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">A-Z</a></li>
+                <li><a href="Animal name.html">Animal name</a></li>
+                <li><a href="#">Rhymes</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>
+              </div>
+  
+  
+  
+             
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+  
+               <ul>
+                <li><a href="#">Kid Rhymes</a></li>
+                <li><a href="#">Counting</a></li>
+                <li><a href="#">A-Z</a></li>
+                <li><a href="Animal name.html">Animal name</a></li>
+                
+            </ul>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Social Networks</h4>
+                <p>help individuals maintain contacts, discover and engage people with common interests, share updates, and organize as groups.</p>
+  
+                <div class="socail-links mt-3">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-skype"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <hr>
+    
+      </footer>
+      <!-- footer -->
+        
+        
+
+        <div class="footer">
+            <p>All rights reserved by Developor &copy;copyright 2024</p>
+       
+        </div>
+        
+
+    </main>
+    
+    <script src="../js/site.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
